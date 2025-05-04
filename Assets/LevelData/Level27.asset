@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37251a7660a15e1438d8b3ae531c8640, type: 3}
+  m_Name: Level27
+  m_EditorClassIdentifier: 
+  level: 27
+  rows: 5
+  columns: 5
+  spawnableDotTypes: 01000000040000000900000000000000
+  numberOfMoves: 35
+  dotTypeRequirements:
+  - dotType: 4
+    quantity: 15
+  - dotType: 9
+    quantity: 15
+  - dotType: 1
+    quantity: 5
+  blockedCells:
+  - {x: 0, y: 0}
+  - {x: 0, y: 1}
+  - {x: 1, y: 1}
+  - {x: 1, y: 0}
+  - {x: 4, y: 4}
+  - {x: 3, y: 4}
+  - {x: 3, y: 3}
+  - {x: 4, y: 3}
+  maxGridHeight: 0.95
+  maxGridWidth: 0.95
